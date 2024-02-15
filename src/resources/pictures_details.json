@@ -1,0 +1,65 @@
+[
+  {
+    "path": "images/1.jpg",
+    "keywords": [
+        "master",
+        "naumburg",
+        "husband",
+        "wife",
+        "jerusalem",
+        "cathedral",
+        "continuity",
+        "life",
+        "afterlife",
+        "hereafter",
+        "ekkehart",
+        "uta",
+        "statues",
+        ["daily", "everyday"],
+        ["chastity", "chaste"],
+        ["modesty", "modest"],
+        "collar",
+        "shield",
+        ["knight", "knights", "knighthood"],
+        ["loyalty", "loyal"]
+    ]
+  },
+  {
+    "path": "images/2.jpg",
+    "keywords": [
+        "matthew",
+        "paris",
+        "england",
+        "engraving",
+        "1255",
+        "elephant",
+        "london",
+        "person",
+        "staircase",
+        ["hierarchical", "importance"],
+        ["reality", "real"],
+        "friar",
+        ["self-portrait", "portrait"],
+        ["kneeling", "knee"]
+    ]
+  },
+  {
+    "path": "images/3.jpg",
+    "keywords": [
+        ["painting", "artwork"],
+        "lorenzetti",
+        "city",
+        "allegory",
+        "good",
+        "government",
+        "cathedral",
+        "siena",
+        "observation",
+        "reality",
+        "peace",
+        ["houses", "dwellings"],
+        "castle",
+        "village"
+    ]
+  }
+]
