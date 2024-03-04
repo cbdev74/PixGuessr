@@ -58,12 +58,12 @@ const PixGuessrMain = () => {
 					className="bg-[#7a1515] shadow text-[#d1d5db] text-lg font-medium p-3 mt-3 rounded-lg"
 					onClick={handleButtonClick as VoidFunction}
 				>
-					Verifica
+					Verify
 				</button>
 			</div>
 			<div className="flex flex-col p-5 font-medium text-[#d1d5db] col-span-2">
 				<h1 className="font-medium text-xl mb-2">
-					Keywords indovinate: {commons?.length as number} su{" "}
+					Keywords : {commons?.length as number} /{" "}
 					{currentPicture?.keywords?.length as number}
 				</h1>
 				{commons?.map((common: string, index: number) => {

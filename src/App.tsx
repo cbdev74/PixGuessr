@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { setCurrentPicture } from "./features/pictureSlice";
+import { setCurrentPicture, setLanguage } from "./features/pictureSlice";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -9,6 +9,7 @@ const App = () => {
 	const dispatch = useDispatch();
 
 	useEffect(() => {
+		dispatch(setLanguage("en"));
 		dispatch(setCurrentPicture());
 	}, []);
 

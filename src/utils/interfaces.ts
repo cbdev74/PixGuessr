@@ -6,4 +6,6 @@ export interface Picture {
 export interface PgState {
 	currentPicture: Picture;
 	answer: string[];
+    language: string;
+    pictures: Picture[];
 }
