@@ -10,7 +10,7 @@ const Footer = () => {
       </p>
 
       <h1 className="font-medium text-gray-300 text-md flex justify-center items-center">
-        v0.0.3
+        v1.0.0
       </h1>
     </footer>
   );
