@@ -42,15 +42,18 @@ const PixGuessrMain = () => {
   return (
     <div className="grid grid-cols-2">
       <PictureCard picture={currentPicture as Picture} />
-      <p className="col-span-2 px-6 pt-4 text-[#d1d5db]">
-        Describe the image. The more accurate you are, the more keywords you
-        get.
-      </p>
-      <div className="col-span-2 flex flex-col p-5 pt-3 w-full">
-        <div style={{ touchAction: "manipulation", overflow: "hidden" }}>
+      <div className="md:col-span-1 col-span-2 flex flex-col p-5 pt-3 w-full">
+        <p className="md:text-xl md:pt-0 pb-6 pt-4 text-[#d1d5db]">
+          Describe the image. The more accurate you are, the more keywords you
+          get.
+        </p>
+        <div
+          className="md:h-full"
+          style={{ touchAction: "manipulation", overflow: "hidden" }}
+        >
           <textarea
             placeholder="Describe the picture..."
-            className="textarea bg-[#212121] text-[#d1d5db] text-lg p-3 outline-none focus:ring-transparent border-2 border-gray-300 w-full rounded-lg"
+            className="md:h-full textarea bg-[#212121] text-[#d1d5db] text-lg p-3 outline-none focus:ring-transparent w-full rounded-lg"
             ref={txtAreaRef}
           ></textarea>
         </div>
